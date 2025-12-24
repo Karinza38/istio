@@ -12,7 +12,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-FROM mongo:7.0.5
+FROM mongo:7.0.28
 WORKDIR /app/data/
 COPY ratings_data.json /app/data/
 COPY script.sh /docker-entrypoint-initdb.d/
